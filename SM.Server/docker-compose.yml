@@ -1,0 +1,6 @@
+﻿services:
+  sm.webapi:
+    image: sm.webapi
+    build:
+      context: .
+      dockerfile: src/SM.WebAPI/Dockerfile

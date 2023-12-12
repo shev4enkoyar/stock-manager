@@ -10,6 +10,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Domain", "src\SM.Domain\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Infrastructure", "src\SM.Infrastructure\SM.Infrastructure.csproj", "{B3BBB86B-9D9E-4AB7-B7B1-B754953C8C71}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{CCB4813A-FBBC-4E5B-A611-93096FC0058A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.WebAPI", "src\SM.WebAPI\SM.WebAPI.csproj", "{47AF4C7E-92E1-487F-BE00-691A00DC5266}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +26,7 @@ Global
 		{9AA16628-E7CB-4B5B-A2AB-A9C6409C1AC2} = {BE717B7D-C9A7-43D4-AF97-952524CED3F4}
 		{561A535B-BD33-4DCA-ADCC-A40ADCA5F273} = {BE717B7D-C9A7-43D4-AF97-952524CED3F4}
 		{B3BBB86B-9D9E-4AB7-B7B1-B754953C8C71} = {BE717B7D-C9A7-43D4-AF97-952524CED3F4}
+		{47AF4C7E-92E1-487F-BE00-691A00DC5266} = {BE717B7D-C9A7-43D4-AF97-952524CED3F4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9AA16628-E7CB-4B5B-A2AB-A9C6409C1AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,5 +41,9 @@ Global
 		{B3BBB86B-9D9E-4AB7-B7B1-B754953C8C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3BBB86B-9D9E-4AB7-B7B1-B754953C8C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3BBB86B-9D9E-4AB7-B7B1-B754953C8C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AF4C7E-92E1-487F-BE00-691A00DC5266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AF4C7E-92E1-487F-BE00-691A00DC5266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AF4C7E-92E1-487F-BE00-691A00DC5266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AF4C7E-92E1-487F-BE00-691A00DC5266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
